@@ -1,0 +1,49 @@
+[
+	{
+		"name"	: "americano",
+		"title"	: "Американо",
+		"sizes"	: {
+			"L"	: {
+				"weight" : 630,
+				"price"	: 60
+				},
+			"M"	: {
+				"weight" : 470,
+				"price"	: 40
+				},
+			"S"	: {
+				"weight" : 340,
+				"price"	: 30
+			}
+		}
+	},	
+	{
+		"name"	: "italano",
+		"title"	: "Итальяно",
+		"sizes"	: {
+			"L"	: {
+				"weight" : 780,
+				"price"	: 60
+				},
+			"M"	: {
+				"weight" : 560,
+				"price"	: 40
+				},
+			"S"	: {
+				"weight" : 380,
+				"price"	: 30
+			}
+		}
+	},	
+	{
+		"name"	: "hot-dog",
+		"title"	: "Хот-дог",
+		"sizes"	: {
+			"M"	: {
+				"weight" : 470,
+				"price"	: 40
+			}
+
+		}
+	}
+]

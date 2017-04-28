@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Пицца "Сделай сам" от Щербины</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="library.js"></script>
+	<script type="text/javascript" src="data.js"></script>
+	<script type="text/javascript" src="pizza.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="content">
+		<h1>Пицца "Сделай сам" от Наташи</h1>
+		<div class="pizza-designer-box">
+			<div class="wrapper-top">
+				<div id="pizza-img" class="box-pizza-img">
+					<img class="pizza-img" src="images/Custom_Pizza_3.jpg">
+				</div>
+				<div class="box-base">
+					<h1 class="base-title">Пицца "Сделай сам"</h1>
+					<div class="box-base-params">
+						<div class="base-params-title">
+							<div class="base-params-label">Тесто</div>
+							<div id="base-type-title" class="base-params-value">Американо</div>
+						</div>
+						<div id="base-type" class="base-params">
+							<img id="americano" src="images/americano.png" title="Американо">
+							<img id="italano" src="images/italano.png" title="Итальяно">
+							<img id="hot-dog" src="images/hotdog.png" title="Хот-дог">
+						</div>
+					</div>
+					<div class="box-base-params">
+						<div class="base-params-title">
+							<div class="base-params-label">Размер</div>
+							<div class="base-params-value">
+								<span id="base-size-title">35</span>
+								<span> см</span>
+							</div>
+						</div>
+						<div id="base-size" class="base-params-size">
+							<div id="L" class="pizza-size-large" title="35"></div>
+							<div id="M" class="pizza-size-mid" title="30"></div>
+							<div id="S" class="pizza-size-small" title="25"></div>
+						</div>
+					</div>
+					<div class="box-base-params">
+						<div class="base-params-title">
+							<div class="base-params-label">Соус</div>
+							<div id="base-sauce-title" class="base-params-value">Гарлик</div>
+						</div>
+						<div id="base-sauce" class="base-params-sauce">
+							<div id="garlicky" class="sauce-garlicky" title="Гарлик"></div>
+							<div id="ranch" class="sauce-ranch" title="Ранч"></div>
+							<div id="salsa" class="sauce-salsa" title="Сальса"></div>
+							<div id="bbq" class="sauce-bbq" title="Bbq"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper-middle">
+				<div class="box-selected-components">
+					<h2>Ваша пицца состоит из</h2>
+					<div id="selected-components" class="box-components">
+						<div class="component">
+							<img id="sauces-select-img" class="component-img" src="images/sauces/sauces_1.png">
+							<div class="component-title">
+								<select id="sauces-select" class="sauces-select">
+									<option data-img="images/sauces/sauces_1.png" value="tomato">Томатный (основа)</option>
+									<option data-img="images/sauces/sauces_2.png" value="ranch">Ранч (основа) </option>
+									<option data-img="images/sauces/sauces_3.png" value="garlicky">Чесночный (основа)</option>
+									<option data-img="images/sauces/sauces_4.png" value="creamy">Сливочный соус Альфредо (основа)</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="available-components" class="box-available-components">
+					<h2>Дополнительные начинки</h2>
+					<div class="tabs-components">
+						<input type="radio" name="tab-item" checked="checked" id="type1"></input><label for="type1" class="addit-type1" title="Морепродукты"></label>
+						<input type="radio" name="tab-item" id="type2"></input><label for="type2" class="addit-type2" title="Мясные"></label>
+						<input type="radio" name="tab-item" id="type3"></input><label for="type3" class="addit-type3" title="Овощи"></label>
+						<input type="radio" name="tab-item" id="type4"></input><label for="type4" class="addit-type4" title="Сыры"></label>
+						<input type="radio" name="tab-item" id="type5"></input><label for="type5" class="addit-type5" title="Заправки"></label>
+						<div id="tab-1" class="tab-page">
+							<div class="box-components">
+							</div>
+						</div>
+						<div id="tab-2" class="tab-page">
+							<div class="box-components"></div>
+						</div>
+						<div id="tab-3" class="tab-page">
+							<div class="box-components"></div>
+						</div>
+						<div id="tab-4" class="tab-page">
+							<div class="box-components">
+							</div>							
+						</div>
+						<div id="tab-5" class="tab-page">
+							<div class="box-components"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper-bottom">
+				<div id="error-message"></div>
+				<div class="box-services">
+					<a id="save" href="#" class="service-save">Сохранить</a>
+					<a id="reset" href="#" class="service-reset">Сбросить</a>
+				</div>
+				<div class="box-order">
+					<span id="order-price" class="order-price">0</span><span> грн </span>
+					<span>/</span>
+					<span  id="order-weight" class="order-weight">0</span><span> гр</span>
+					<button  id="tocart" class="order-tocart">В корзину</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

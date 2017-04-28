@@ -1,0 +1,863 @@
+[
+  {
+    "id"		: 101,
+    "type"		: 1,
+    "title" 	: "Кальмары",
+    "img"		: "images/components/comps-type1/comps-t1-1.jpg",
+    "dataImg"	: "images/components/comps-type1/comps-t1-1-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 26
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 13
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 10
+      }
+    }
+  },
+  {
+    "id"		: 102,
+    "type"		: 1,
+    "title" 	: "Креветки",
+    "img"		: "images/components/comps-type1/comps-t1-2.jpg",
+    "dataImg"	: "images/components/comps-type1/comps-t1-2-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 45,
+        "price"	: 70
+      },
+      "M"	: {
+        "weight" : 35,
+        "price"	: 50
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 35
+      }
+    }
+  },
+  {
+    "id"		: 103,
+    "type"		: 1,
+    "title" 	: "Мидии",
+    "img"		: "images/components/comps-type1/comps-t1-3.jpg",
+    "dataImg"	: "images/components/comps-type1/comps-t1-3-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 75,
+        "price"	: 35
+      },
+      "M"	: {
+        "weight" : 60,
+        "price"	: 30
+      },
+      "S"	: {
+        "weight" : 40,
+        "price"	: 18
+      }
+    }
+  },
+  {
+    "id"		: 104,
+    "type"		: 1,
+    "title" 	: "Сёмга",
+    "img"		: "images/components/comps-type1/comps-t1-4.jpg",
+    "dataImg"	: "images/components/comps-type1/comps-t1-4-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 75,
+        "price"	: 70
+      },
+      "M"	: {
+        "weight" : 60,
+        "price"	: 55
+      },
+      "S"	: {
+        "weight" : 40,
+        "price"	: 32
+      }
+    }
+  },
+  {
+    "id"		: 105,
+    "type"		: 1,
+    "title" 	: "Крабовое мясо",
+    "img"		: "images/components/comps-type1/comps-t1-5.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 17
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 12
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 10
+      }
+    }
+  },
+  {
+    "id"		: 201,
+    "type"		: 2,
+    "title": "Бекон",
+    "img": "images/components/comps-type2/comps-t2-1.png",
+    "dataImg": "images/components/comps-type2/comps-t2-1-pizza.png",
+    "sizes": {
+      "L": {
+        "weight": 60,
+        "price": 18
+      },
+      "M": {
+        "weight": 45,
+        "price": 13
+      },
+      "S": {
+        "weight": 30,
+        "price": 9
+      }
+    }
+  },
+  {
+    "id"		: 202,
+    "type"		: 2,
+    "title" 	: "Ветчина",
+    "img"		: "images/components/comps-type2/comps-t2-2.jpg",
+    "dataImg"	: "images/components/comps-type2/comps-t2-2-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 45,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 6
+      }
+    }
+  },
+  {
+    "id"		: 203,
+    "type"		: 2,
+    "title" 	: "Итальянские колбаски",
+    "img"		: "images/components/comps-type2/comps-t2-3.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-3-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 70,
+        "price"	: 21
+      },
+      "M"	: {
+        "weight" : 50,
+        "price"	: 16
+      },
+      "S"	: {
+        "weight" : 35,
+        "price"	: 10
+      }
+    }
+  },
+  {
+    "id"		: 204,
+    "type"		: 2,
+    "title" 	: "Венские колбаски",
+    "img"		: "images/components/comps-type2/comps-t2-4.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 11
+      },
+      "M"	: {
+        "weight" : 45,
+        "price"	: 8
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 5
+      }
+    }
+  },
+  {
+    "id"		: 205,
+    "type"		: 2,
+    "title" 	: "Баварские колбаски",
+    "img"		: "images/components/comps-type2/comps-t2-5.jpg",
+    "dataImg"	: "images/components/comps-type2/comps-t2-5-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 15
+      },
+      "M"	: {
+        "weight" : 45,
+        "price"	: 12
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 7
+      }
+    }
+  },
+  {
+    "id"		: 206,
+    "type"		: 2,
+    "title" 	: "Копченая курица",
+    "img"		: "images/components/comps-type2/comps-t2-6.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-6-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 80,
+        "price"	: 21
+      },
+      "M"	: {
+        "weight" : 60,
+        "price"	: 16
+      },
+      "S"	: {
+        "weight" : 35,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 207,
+    "type"		: 2,
+    "title" 	: "Курица гриль",
+    "img"		: "images/components/comps-type2/comps-t2-7.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-7-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 70,
+        "price"	: 19
+      },
+      "M"	: {
+        "weight" : 50,
+        "price"	: 13
+      },
+      "S"	: {
+        "weight" : 35,
+        "price"	: 10
+      }
+    }
+  },
+  {
+    "id"		: 208,
+    "type"		: 2,
+    "title" 	: "Салями Пепперони",
+    "img"		: "images/components/comps-type2/comps-t2-8.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-8-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 30
+      },
+      "M"	: {
+        "weight" : 45,
+        "price"	: 20
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 13
+      }
+    }
+  },
+  {
+    "id"		: 209,
+    "type"		: 2,
+    "title" 	: "Говядина",
+    "img"		: "images/components/comps-type2/comps-t2-9.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-9-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 70,
+        "price"	: 20
+      },
+      "M"	: {
+        "weight" : 50,
+        "price"	: 15
+      },
+      "S"	: {
+        "weight" : 35,
+        "price"	: 11
+      }
+    }
+  },
+  {
+    "id"		: 210,
+    "type"		: 2,
+    "title" 	: "Фрикадельки",
+    "img"		: "images/components/comps-type2/comps-t2-10.jpg",
+    "dataImg"	: "images/components/comps-type2/comps-t2-10-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 70,
+        "price"	: 18
+      },
+      "M"	: {
+        "weight" : 50,
+        "price"	: 12
+      },
+      "S"	: {
+        "weight" : 35,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 211,
+    "type"		: 2,
+    "title" 	: "Куриные Стрипсы",
+    "img"		: "images/components/comps-type2/comps-t2-11.png",
+    "dataImg"	: "images/components/comps-type2/comps-t2-11-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 70,
+        "price"	: 19
+      },
+      "M"	: {
+        "weight" : 60,
+        "price"	: 13
+      },
+      "S"	: {
+        "weight" : 40,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 301,
+    "type"		: 3,
+    "title" 	: "Кунжутный бортик",
+    "img"		: "images/components/comps-type3/comps-t3-1.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-1-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 12,
+        "price"	: 5
+      },
+      "M"	: {
+        "weight" : 10,
+        "price"	: 4
+      },
+      "S"	: {
+        "weight" : 8,
+        "price"	: 3
+      }
+    }
+  },
+  {
+    "id"		: 302,
+    "type"		: 3,
+    "title" 	: "Орегано",
+    "img"		: "images/components/comps-type3/comps-t3-2.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 3,
+        "price"	: 5
+      },
+      "M"	: {
+        "weight" : 2,
+        "price"	: 4
+      },
+      "S"	: {
+        "weight" : 1,
+        "price"	: 3
+      }
+    }
+  },
+  {
+    "id"		: 303,
+    "type"		: 3,
+    "title" 	: "Перчик Халапеньо",
+    "img"		: "images/components/comps-type3/comps-t3-3.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-3-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 22,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 16,
+        "price"	: 11
+      },
+      "S"	: {
+        "weight" : 10,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 304,
+    "type"		: 3,
+    "title" 	: "Петрушка",
+    "img"		: "images/components/comps-type3/comps-t3-4.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-4-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 7,
+        "price"	: 5
+      },
+      "M"	: {
+        "weight" : 5,
+        "price"	: 4
+      },
+      "S"	: {
+        "weight" : 4,
+        "price"	: 3
+      }
+    }
+  },
+  {
+    "id"		: 305,
+    "type"		: 3,
+    "title" 	: "Ананас",
+    "img"		: "images/components/comps-type3/comps-t3-5.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-5-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 40,
+        "price"	: 10
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 8
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 6
+      }
+    }
+  },
+  {
+    "id"		: 306,
+    "type"		: 3,
+    "title" 	: "Кукуруза",
+    "img"		: "images/components/comps-type3/comps-t3-6.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-6-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 40,
+        "price"	: 8
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 6
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 4
+      }
+    }
+  },
+  {
+    "id"		: 307,
+    "type"		: 3,
+    "title" 	: "Лук",
+    "img"		: "images/components/comps-type3/comps-t3-7.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-7-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 30,
+        "price"	: 4
+      },
+      "M"	: {
+        "weight" : 25,
+        "price"	: 3
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 2
+      }
+    }
+  },
+  {
+    "id"		: 308,
+    "type"		: 3,
+    "title" 	: "Маслины",
+    "img"		: "images/components/comps-type3/comps-t3-8.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-8-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 30,
+        "price"	: 12
+      },
+      "M"	: {
+        "weight" : 25,
+        "price"	: 9
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 7
+      }
+    }
+  },
+  {
+    "id"		: 309,
+    "type"		: 3,
+    "title" 	: "Огурец маринованный",
+    "img"		: "images/components/comps-type3/comps-t3-9.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-9-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 45,
+        "price"	: 6
+      },
+      "M"	: {
+        "weight" : 35,
+        "price"	: 5
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 4
+      }
+    }
+  },
+  {
+    "id"		: 310,
+    "type"		: 3,
+    "title" 	: "Оливки",
+    "img"		: "images/components/comps-type3/comps-t3-10.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-10-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 30,
+        "price"	: 12
+      },
+      "M"	: {
+        "weight" : 25,
+        "price"	: 9
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 7
+      }
+    }
+  },
+  {
+    "id"		: 311,
+    "type"		: 3,
+    "title" 	: "Перец болгарский",
+    "img"		: "images/components/comps-type3/comps-t3-11.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-11-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 40,
+        "price"	: 15
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 11
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 6
+      }
+    }
+  },
+  {
+    "id"		: 312,
+    "type"		: 3,
+    "title" 	: "Помидор",
+    "img"		: "images/components/comps-type3/comps-t3-12.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-12-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 90,
+        "price"	: 12
+      },
+      "M"	: {
+        "weight" : 70,
+        "price"	: 9
+      },
+      "S"	: {
+        "weight" : 55,
+        "price"	: 7
+      }
+    }
+  },
+  {
+    "id"		: 313,
+    "type"		: 3,
+    "title" 	: "Шампиньоны",
+    "img"		: "images/components/comps-type3/comps-t3-13.jpg",
+    "dataImg"	: "images/components/comps-type3/comps-t3-13-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 8
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 6
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 4
+      }
+    }
+  },
+  {
+    "id"		: 314,
+    "type"		: 3,
+    "title" 	: "Опята",
+    "img"		: "images/components/comps-type3/comps-t3-14.png",
+    "dataImg"	: "images/components/comps-type3/comps-t3-14-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 19
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 12
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 8
+      }
+    }
+  },
+  {
+    "id"		: 401,
+    "type"		: 4,
+    "title" 	: "Дор Блю",
+    "img"		: "images/components/comps-type4/comps-t4-1.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 50
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 33
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 20
+      }
+    }
+  },
+  {
+    "id"		: 402,
+    "type"		: 4,
+    "title" 	: "Моцарелла",
+    "img"		: "images/components/comps-type4/comps-t4-2.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 100,
+        "price"	: 22
+      },
+      "M"	: {
+        "weight" : 70,
+        "price"	: 15
+      },
+      "S"	: {
+        "weight" : 50,
+        "price"	: 11
+      }
+    }
+  },
+  {
+    "id"		: 403,
+    "type"		: 4,
+    "title" 	: "Пармезан",
+    "img"		: "images/components/comps-type4/comps-t4-3.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 27
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 14
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 10
+      }
+    }
+  },
+  {
+    "id"		: 404,
+    "type"		: 4,
+    "title" 	: "Фета",
+    "img"		: "images/components/comps-type4/comps-t4-4.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 19
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 13
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 405,
+    "type"		: 4,
+    "title" 	: "Филадельфия",
+    "img"		: "images/components/comps-type4/comps-t4-5.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 60,
+        "price"	: 19
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 13
+      },
+      "S"	: {
+        "weight" : 25,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 406,
+    "type"		: 4,
+    "title" 	: "Чеддер",
+    "img"		: "images/components/comps-type4/comps-t4-6.jpg",
+    "dataImg"	: "",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 90,
+        "price"	: 23
+      },
+      "M"	: {
+        "weight" : 60,
+        "price"	: 16
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 9
+      }
+    }
+  },
+  {
+    "id"		: 501,
+    "type"		: 5,
+    "title" 	: "Остро-сладкий",
+    "img"		: "images/components/comps-type5/comps-t5-1.png",
+    "dataImg"	: "images/components/comps-type5/comps-t5-1-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 8
+      }
+    }
+  },
+  {
+    "id"		: 502,
+    "type"		: 5,
+    "title" 	: "Барбекью",
+    "img"		: "images/components/comps-type5/comps-t5-2.png",
+    "dataImg"	: "images/components/comps-type5/comps-t5-2-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 40,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 30,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 20,
+        "price"	: 8
+      }
+    }
+  },
+  {
+    "id"		: 503,
+    "type"		: 5,
+    "title" 	: "Ранч",
+    "img"		: "images/components/comps-type5/comps-t5-3.jpg",
+    "dataImg"	: "images/components/comps-type5/comps-t5-3-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 8
+      }
+    }
+  },
+  {
+    "id"		: 504,
+    "type"		: 5,
+    "title" 	: "Сацебели",
+    "img"		: "images/components/comps-type5/comps-t5-4.png",
+    "dataImg"	: "images/components/comps-type5/comps-t5-4-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 8
+      }
+    }
+  },
+  {
+    "id"		: 505,
+    "type"		: 5,
+    "title" 	: "Карри",
+    "img"		: "images/components/comps-type5/comps-t5-5.png",
+    "dataImg"	: "images/components/comps-type5/comps-t5-5-pizza.png",
+    "sizes"		: {
+      "L"	: {
+        "weight" : 50,
+        "price"	: 14
+      },
+      "M"	: {
+        "weight" : 40,
+        "price"	: 10
+      },
+      "S"	: {
+        "weight" : 30,
+        "price"	: 8
+      }
+    }
+  }
+]
